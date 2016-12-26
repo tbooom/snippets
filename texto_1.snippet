@@ -1,0 +1,44 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>texto</Title>
+    <Author>Microsoft Corporation</Author>
+    <Shortcut>text1-</Shortcut>
+    <Description>Markup snippet for a table</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>#</ID>
+        <ToolTip>#</ToolTip>
+        <Default>#</Default>
+        
+      </Literal>
+      <Literal Editable="true">
+        <ID>tamanho</ID>
+        <ToolTip>tamanho</ToolTip>
+        <Default>tamanho</Default>
+        
+      </Literal>
+    </Declarations>
+    <Code Language="html">
+      <![CDATA[ <tr>
+        <td>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; font-family: Arial; font-size:$#$ ">
+                <tr>
+                    <td style="width:$tamanho$"></td>
+                    <td>
+                        <p>
+                       $end$
+                        </p>
+                    </td>
+                    <td style="width:$tamanho$"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,81 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>qm</Title>
+    <Author>Microsoft Corporation</Author>
+    <Shortcut>qm-</Shortcut>
+    <Description>#spoiler é vida</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>margem</ID>
+        <ToolTip>margem</ToolTip>
+        <Default>margem</Default>
+        <Function></Function>
+      </Literal>
+       <Literal Editable="true">
+        <ID>l1</ID>
+        <ToolTip>l1</ToolTip>
+        <Default>l1</Default>
+         <Function></Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>l2</ID>
+        <ToolTip>l2</ToolTip>
+        <Default>l2</Default>
+        <Function></Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>img1</ID>
+        <ToolTip>img1</ToolTip>
+        <Default>img1</Default>
+        <Function></Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>img2</ID>
+        <ToolTip>img2</ToolTip>
+        <Default>img2</Default>
+        <Function></Function>
+      </Literal>
+    </Declarations>
+    <Code Language="html">
+      <![CDATA[
+       <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; display: inline-block;">
+                <tr>
+                    <td style="width:$margem$"></td>
+                    <td>
+                        <center><!--[if mso]><table width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td width="$l1$"><![endif]-->
+                           <table   cellpadding="0" cellspacing="0" style="display: inline-block;width:$l1$px;border:0;border-bottom: 0;" align="center">                               
+                               <tr>
+                                    <td >
+                                        <img src="images/$img1$.jpg" style="width: 100%; display: block;border:0;" align="center"  />
+                                    </td>
+                                </tr>
+                              
+                           </table><!--[if mso]></td><td  width="$l2$"><![endif]-->   
+                            <table cellpadding="0" cellspacing="0" style="display: inline-block;width:$l2$px;border:0;border-bottom: 0;" align="center">                               
+                               <tr>
+                                    <td >
+                                        <img src="images/$img2$.jpg" style="width: 100%; display: block;border:0;" align="center"  />
+                                    </td>
+                                </tr>
+                               
+                           </table><!--[if mso]></td></tr></table><![endif]-->    
+                           </center>
+                    </td>
+                    <td style="width:$margem$"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    $end$
+]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
